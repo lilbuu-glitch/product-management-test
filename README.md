@@ -19,6 +19,8 @@ Aplikasi ini adalah implementasi CRUD (Create, Read, Update, Delete) sederhana m
 
 ## Cara Menjalankan Aplikasi
 
+Live demo : http://127.0.0.1:60013/
+vercel live demo: 
 ### Prerequisites:
 1. **Install .NET 10 SDK** dari: https://dotnet.microsoft.com/download/dotnet/10.0
 
