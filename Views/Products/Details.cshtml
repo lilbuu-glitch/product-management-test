@@ -1,0 +1,51 @@
+@model ProductManagementSystem.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0">Product Details</h4>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-3">Name:</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                        <dt class="col-sm-3">Description:</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+                        <dt class="col-sm-3">Price:</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Price)</dd>
+
+                        <dt class="col-sm-3">Stock:</dt>
+                        <dd class="col-sm-9">
+                            <span class="badge @(Model.Stock > 10 ? "bg-success" : Model.Stock > 5 ? "bg-warning" : "bg-danger")">
+                                @Html.DisplayFor(model => model.Stock) units
+                            </span>
+                        </dd>
+
+                        <dt class="col-sm-3">Created At:</dt>
+                        <dd class="col-sm-9">@Model.CreatedAt.ToString("MMM dd, yyyy HH:mm")</dd>
+
+                        <dt class="col-sm-3">Last Updated:</dt>
+                        <dd class="col-sm-9">@Model.UpdatedAt.ToString("MMM dd, yyyy HH:mm")</dd>
+                    </dl>
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                        <div>
+                            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning me-2">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
