@@ -10,6 +10,8 @@ Aplikasi ini adalah implementasi CRUD (Create, Read, Update, Delete) sederhana m
 - **Data Validation**: Validasi input di sisi server dan client.
 - **Stock Status Indicator**: Indikator visual untuk status stok (hijau/kuning/merah).
 
+![Dashboard Product Management](Image%201/Dashboard%20Product%20Management.png)
+
 ## Teknologi
 - .NET 10 SDK
 - Entity Framework Core (ORM)
