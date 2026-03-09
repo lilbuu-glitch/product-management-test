@@ -143,7 +143,4 @@ ProductManagementSystem/
 - Server-side validation untuk data integrity
 
 ---
-**Candidate:** Theofilius  
-**Position:** AI Engineer  
-**Company:** PT. Akarsa Garment Indonesia  
-**Repository:** https://github.com/lilbuu-glitch/product-management-test.git
+
