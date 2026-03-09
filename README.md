@@ -10,10 +10,13 @@ Aplikasi ini adalah implementasi CRUD (Create, Read, Update, Delete) sederhana m
 - **Data Validation**: Validasi input di sisi server dan client.
 - **Stock Status Indicator**: Indikator visual untuk status stok (hijau/kuning/merah).
 
+This is the Dashboard Product Management
 ![Dashboard Product Management](Image%201/Dashboard%20Product%20Management.png)
 
+You can add product as many as you can
 ![Add Product](Image%201/Add%20Product.png)
 
+Also you can delete the product
 ![Delete](Image%201/Delete.png)
 
 ![Hasil](Image%201/Hasil%20.png)
