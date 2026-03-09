@@ -12,6 +12,12 @@ Aplikasi ini adalah implementasi CRUD (Create, Read, Update, Delete) sederhana m
 
 ![Dashboard Product Management](Image%201/Dashboard%20Product%20Management.png)
 
+![Add Product](Image%201/Add%20Product.png)
+
+![Delete](Image%201/Delete.png)
+
+![Hasil](Image%201/Hasil.png)
+
 ## Teknologi
 - .NET 10 SDK
 - Entity Framework Core (ORM)
