@@ -16,7 +16,7 @@ Aplikasi ini adalah implementasi CRUD (Create, Read, Update, Delete) sederhana m
 
 ![Delete](Image%201/Delete.png)
 
-![Hasil](Image%201/Hasil.png)
+![Hasil](Image%201/Hasil%20.png)
 
 ## Teknologi
 - .NET 10 SDK
