@@ -1,4 +1,4 @@
-# Product Management System - Technical Assessment (AI Engineer)
+# Product Management System
 
 Aplikasi ini adalah implementasi CRUD (Create, Read, Update, Delete) sederhana menggunakan **.NET 10 MVC**, dibuat untuk memenuhi persyaratan seleksi di **PT. Akarsa Garment Indonesia**.
 
